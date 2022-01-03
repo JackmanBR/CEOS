@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CEOS.RECEBIMENTO_SELENIDE.runner">
+      <class name="CEOS.RECEBIMENTO_SELENIDE.runnerGuerra">
         <methods>
           <include name="Start"/>
           <include name="ExpedicaoCompleta"/>
         </methods>
-      </class> <!-- CEOS.RECEBIMENTO_SELENIDE.runner -->
+      </class> <!-- CEOS.RECEBIMENTO_SELENIDE.runnerGuerra -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

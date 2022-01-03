@@ -25,7 +25,7 @@ public class RecebimentoCompleto {
 		$("#userPassword").setValue("1a2b3c");
 		$("#buttonLogin").click();
 		
-		//ACESSANDO CADASTRO DE FORNECIMENTO
+		//ACESSANDO CADASTRO DE ORDEM DE FORNECIMENTO
 		System.out.println("Acessando cadastro de ordem de fornecimento...");
 		
 		$(By.xpath("//*[@id=\"dynamicmenu\"]/ul/li[6]/a/span[1]")).hover();
@@ -36,9 +36,9 @@ public class RecebimentoCompleto {
 		System.out.println("Preenchendo abas e campos da ordem de fornecimento...");
 		
 		$(By.name("tabViewDeliveryOrder:deliveryOrderStockLevel:deliveryOrderStockLevel_identifier")).setValue("100").pressEnter();
-		sleep(1000);
+		sleep(1500);
 		$(By.name("tabViewDeliveryOrder:deliveryOrderNumber")).setValue(util.GetStringRandom()).pressEnter();
-		sleep(1000);
+		sleep(1500);
 		$(By.cssSelector("#tabViewDeliveryOrder\\:deliveryOrderDateReceiptSupplier > button > span.ui-button-icon-left.ui-icon.ui-icon-calendar")).click();
 		$(By.cssSelector("#ui-datepicker-div > table > tbody > tr:nth-child(1) > td:nth-child(6) > a")).click();
 		$(By.cssSelector("#tabViewDeliveryOrder\\:deliveryOrderDateIssuance > button > span.ui-button-icon-left.ui-icon.ui-icon-calendar")).click();
@@ -98,7 +98,7 @@ public class RecebimentoCompleto {
 		$(By.cssSelector("#dynamicmenu > ul > li.ui-widget.ui-menuitem.ui-corner-all.ui-menu-parent.ui-menuitem-active > ul > li:nth-child(2) > a > span.ui-menuitem-text")).hover();
 		$(By.cssSelector("#menuitem311 > span")).hover().click();
 		
-		//PREENCHENDO ORDEM DE FORNECIMENTO
+		//PREENCHENDO CADASTRO DE RECEBIMENTO
 		System.out.println("Preenchendo dados...");
 		
 		$(By.name("tabViewReceptionDocument:receptionDocumentDeliveryOrder:receptionDocumentDeliveryOrder_identifier")).setValue(util.numeros).pressEnter();
@@ -111,9 +111,9 @@ public class RecebimentoCompleto {
 		$(By.cssSelector("#tabViewReceptionDocument\\:receptionDocumentType_panel > div > ul > li:nth-child(2)")).click();
 		sleep(2000);
 		$(By.name("tabViewReceptionDocument:receptionDocumentFiscalNumber")).setValue(util.GetStringRandom());
-		sleep(1000);
+		sleep(1500);
 		$(By.name("tabViewReceptionDocument:receptionDocumentFiscalSeries")).setValue(util.GetStringRandom());
-		sleep(1000);
+		sleep(1500);
 		$(By.name("tabViewReceptionDocument:receptionDocumentObservation")).setValue("teste automação, campo observação!");
 		sleep(1000);
 		

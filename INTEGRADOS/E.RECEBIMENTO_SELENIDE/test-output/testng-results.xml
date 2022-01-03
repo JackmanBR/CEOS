@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-03T10:12:01 BRT" name="Default suite" finished-at="2022-01-03T10:14:10 BRT" duration-ms="128065">
+  <suite started-at="2022-01-03T13:56:11 BRT" name="Default suite" finished-at="2022-01-03T13:58:27 BRT" duration-ms="136830">
     <groups>
     </groups>
-    <test started-at="2022-01-03T10:12:01 BRT" name="Default test" finished-at="2022-01-03T10:14:10 BRT" duration-ms="128065">
+    <test started-at="2022-01-03T13:56:11 BRT" name="Default test" finished-at="2022-01-03T13:58:27 BRT" duration-ms="136830">
       <class name="CEOS.E.RECEBIMENTO_SELENIDE.runnerGuerra">
-        <test-method is-config="true" signature="Start()[pri:0, instance:CEOS.E.RECEBIMENTO_SELENIDE.runnerGuerra@54c562f7]" started-at="2022-01-03T10:12:01 BRT" name="Start" finished-at="2022-01-03T10:12:01 BRT" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="Start()[pri:0, instance:CEOS.E.RECEBIMENTO_SELENIDE.runnerGuerra@54c562f7]" started-at="2022-01-03T13:56:11 BRT" name="Start" finished-at="2022-01-03T13:56:11 BRT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method signature="RecebimentoCompleto()[pri:0, instance:CEOS.E.RECEBIMENTO_SELENIDE.runnerGuerra@54c562f7]" started-at="2022-01-03T10:12:01 BRT" name="RecebimentoCompleto" finished-at="2022-01-03T10:14:10 BRT" duration-ms="128026" status="PASS">
+        <test-method signature="RecebimentoCompleto()[pri:0, instance:CEOS.E.RECEBIMENTO_SELENIDE.runnerGuerra@54c562f7]" started-at="2022-01-03T13:56:11 BRT" name="RecebimentoCompleto" finished-at="2022-01-03T13:58:27 BRT" duration-ms="136788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RecebimentoCompleto -->

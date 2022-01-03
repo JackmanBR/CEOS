@@ -13,6 +13,7 @@ public class runnerGuerra {
 		
 		Configuration.headless = false;		
 		//Configuration.timeout = 7000;
+		Configuration.startMaximized = true;
 		
 	}	
 	

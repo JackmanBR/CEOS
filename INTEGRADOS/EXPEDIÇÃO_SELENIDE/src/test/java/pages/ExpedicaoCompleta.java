@@ -43,7 +43,7 @@ public class ExpedicaoCompleta {
 		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-month")).click();
 		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-month > option:nth-child(1)")).click();
 		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-year")).click();
-		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-year > option:nth-child(12)")).click();
+		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-year > option:nth-child(11)")).click();
 		$(By.cssSelector("#ui-datepicker-div > table > tbody > tr:nth-child(6) > td:nth-child(1) > a")).click();
 		$(By.cssSelector("#tabViewRequisition\\:requisitionPeriodicity_label")).click();
 		sleep(1000);		
@@ -95,8 +95,20 @@ public class ExpedicaoCompleta {
 		sleep(1000);
 		$(By.cssSelector("#tabViewExpedition\\:expeditionTransportingResponsible_label")).click();
 		sleep(500);
+		
+		
 		$(By.cssSelector("#tabViewExpedition\\:expeditionTransportingResponsible_panel > div > ul > li:nth-child(3)")).click();
 		sleep(1000);
+		
+		//PREVISÃO-ENTREGA
+		$(By.cssSelector("#tabViewExpedition\\:expedtionAgreedDeliveryForecast > button > span.ui-button-icon-left.ui-icon.ui-icon-calendar")).click();
+		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-month")).click();
+		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-month > option:nth-child(1)")).click();
+		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-year")).click();
+		$(By.cssSelector("#ui-datepicker-div > div > div > select.ui-datepicker-year > option:nth-child(51)")).click();
+		$(By.cssSelector("#ui-datepicker-div > table > tbody > tr:nth-child(6) > td:nth-child(1) > a")).click();		
+		
+		
 		$(By.name("tabViewExpedition:expeditionObservation")).setValue("teste automação");
 		sleep(1000);
 		$(By.cssSelector("#tabViewExpedition > ul > li:nth-child(2) > a")).click();
@@ -109,6 +121,7 @@ public class ExpedicaoCompleta {
 		$("#saveExpeditionLink").click();
 		
 		System.out.println("Cadastro de expedição realizado com sucesso!");
+		sleep(2000);
 				
 	}
 }
