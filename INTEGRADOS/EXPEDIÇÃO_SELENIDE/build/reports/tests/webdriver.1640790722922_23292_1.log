@@ -1,0 +1,169 @@
+[1640790723.227][INFO]: Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 12797
+[1640790723.228][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1640790723.749][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\joaop_93yvxxg\\eclipse-workspace\\EXPEDIÇÃO_SELENIDE\\build\\downloads\\1640790722625_23292_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\joaop_93yvxxg\\eclipse-workspace\\EXPEDIÇÃO_SELENIDE\\build\\downloads\\1640790722625_23292_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1640790723.751][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\joaop_93yvxxg\\eclipse-workspace\\EXPEDIÇÃO_SELENIDE\\build\\downloads\\1640790722625_23292_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1640790723.751][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1640790723.753][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\JOAOP_~1\AppData\Local\Temp\scoped_dir8164_1974716237" data:,
+[1640790724.470][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1640790724.478][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1640790724.486][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "96.0.4664.110",
+      "chrome": {
+         "chromedriverVersion": "96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})",
+         "userDataDir": "C:\\Users\\JOAOP_~1\\AppData\\Local\\Temp\\scoped_dir8164_1974716237"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55252"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "bc970aca323dfc3c6627cd2136f8f29b"
+}
+[1640790724.517][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1640790724.517][INFO]: Waiting for pending navigations...
+[1640790724.519][INFO]: Done waiting for pending navigations. Status: ok
+[1640790724.625][INFO]: Waiting for pending navigations...
+[1640790724.626][INFO]: Done waiting for pending navigations. Status: ok
+[1640790724.626][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1640790724.630][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1640790724.630][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] RESPONSE SetTimeouts
+[1640790724.636][INFO]: [bc970aca323dfc3c6627cd2136f8f29b] COMMAND Navigate {
+   "url": "http://integra.ceos.alclog.com.br:8090/public/login/login"
+}
+[1640790724.636][INFO]: Waiting for pending navigations...
+[1640790724.637][INFO]: Done waiting for pending navigations. Status: ok
+[1640790726.816][INFO]: Waiting for pending navigations...
