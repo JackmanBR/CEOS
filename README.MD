@@ -4,7 +4,7 @@ PRIMEIRA AUTOMAÇÃO SISTEMA CEOS
 
 1 - APRESENTAÇÃO INICIAL.
 
-Este é um projeto inicial de automação parcial do sistema CEOS.
+Este é um projeto inicial de automação parcial do sistema CEOS, apenas para apresentação.
 
 2 - ESPECIFICAÇÃO TÉCNICA
 
